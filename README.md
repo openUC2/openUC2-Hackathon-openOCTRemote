@@ -76,6 +76,16 @@ OCT relies on having as small a temporal coherence as possible to increase optic
 
 We are currently in the process of building a prototype for the simplified OCT system. The setup eliminates the need for an optical table and instead is mounted on a foam mat, allowing for easier operation and portability.
 
+### CAD
+
+The Inventor DEsign Files can be found in the folder [INVENTOR](./INVENTOR)
+The STL printing files can be found in the folder [STL](./STL)
+
+![OPU Lower](./INVENTOR/InventorScreen.png)
+
+![OPU Lower](./INVENTOR/IMG_20230712_125434.jpg)
+
+
 ### Reference Mirror
 
 The optical setup consists of a minimal number of optical components. The reference mirror (M2) is mounted on a linear stage, enabling forward and backward movement to scan the coherence volume. It is also kinematically held to align the beam with respect to the sample. The entire scanning process will be motorized to minimize vibrations caused by manual movements.
