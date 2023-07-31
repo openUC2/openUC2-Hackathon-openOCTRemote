@@ -76,6 +76,20 @@ OCT relies on having as small a temporal coherence as possible to increase optic
 
 We are currently in the process of building a prototype for the simplified OCT system. The setup eliminates the need for an optical table and instead is mounted on a foam mat, allowing for easier operation and portability.
 
+### TwinLAB Integration
+
+Johannes will tell you more about it. Here you can find some links and thoughts:
+
+https://www.asp.uni-jena.de/digital-teaching/xr-twinlab
+
+
+![](./IMAGES/grafik_gesamt.png)
+
+Sources:
+https://github.com/Lichtwerkstatt/XRTL_SPA
+
+The idea would be to integrate the UC2 system into this framework
+
 ### CAD
 
 The Inventor DEsign Files can be found in the folder [INVENTOR](./INVENTOR)
