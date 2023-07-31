@@ -345,9 +345,6 @@ Ultimatively, the goal is to capture a stack of images while the refernce arm is
 **Risk of Squeezing fingers** Don't hurt your fingers!
 
 
-## Challenge
-
-### Varitions
 
 ## When Goal is met?
 
@@ -359,6 +356,27 @@ Ultimatively, the goal is to capture a stack of images while the refernce arm is
 
 ## Ressources
 - https://hackaday.com/2021/02/02/dvd-optics-power-this-scanning-laser-microscope/
+
+
+## Future and outlook
+
+In conclusion, the development of the "common-path" OCT prototype has marked a significant step forward, though it has also revealed critical areas for improvement. The initial design, hindered by a vulnerability to vibrations due to the lengthy reference and sample arms and the tuning fork-like mounting of mirrors and samples, needed rethinking. The recommendation to miniaturize the setup into a single cube, eliminating potential sources of reduced mechanical stiffness, has proven to be a wise direction.
+
+![](IMAGES/IMG_20230730_151609.jpg)
+
+
+The innovative one-cube design, featuring a reference arm with z-only positioning and kinematically mounted other arm, cleverly couples a non-captive motor with a TMC stepper motor. This approach has helped to overcome the vibrational challenges associated with previous A4988 stepper drivers. Although the mounting of real samples remains an open question and subject for future experimentation, the current setup is undoubtedly more stable and more straightforward to realize.
+
+The openOCT project's future looks promising, with a newfound focus on robustness and precision. By continuing to address the challenges identified and adapting the prototype accordingly, there is immense potential for achieving a state-of-the-art system that could redefine OCT technology. The pathway towards miniaturization and stability has already begun to be paved, opening exciting possibilities for research and applications.
+In the future we definitely want to replace the SLD with an LED due to supply chain issues
+
+### Results
+
+First results on in-cube OCT with the TMC motor controller and the Superlum SLD:
+
+!()[IMAGES/incubeOCT_TMC.gif]
+
+!()[IMAGES/incubeOCT_TMC_highcontrast.gif]
 
 
 ## Results
