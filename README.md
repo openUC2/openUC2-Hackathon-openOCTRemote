@@ -374,9 +374,9 @@ In the future we definitely want to replace the SLD with an LED due to supply ch
 
 First results on in-cube OCT with the TMC motor controller and the Superlum SLD:
 
-!()[IMAGES/incubeOCT_TMC.gif]
+![](IMAGES/incubeOCT_TMC.gif)
 
-!()[IMAGES/incubeOCT_TMC_highcontrast.gif]
+![](IMAGES/incubeOCT_TMC_highcontrast.gif)
 
 
 ## Results
