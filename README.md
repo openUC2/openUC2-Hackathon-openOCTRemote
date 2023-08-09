@@ -145,6 +145,35 @@ The laser diode can be directly powered by the 3V3 supply voltage or controlled 
 ![Laser Diode Setup](./IMAGES/AF_12.jpg)
 
 
+## Current State: Building the Prototype
+
+We are currently in the advanced stages of constructing the prototype for our simplified OCT system, and several significant milestones have been accomplished:
+
+### Achievements
+
+1. **System Alignment:** We have successfully achieved a satisfactory level of system alignment, ensuring that all the optical components are properly positioned for optimal performance.
+
+2. **Mirror Focusing:** Precise focusing of the mirrors has been achieved, contributing to enhanced imaging quality and accurate interference patterns.
+
+3. **Tip Tilt Optimization:** We have effectively optimized the tip and tilt of the mirrors. This meticulous adjustment has resulted in improved beam steering, critical for obtaining clear interference fringes.
+
+4. **Interference Fringe Generation:** By meticulously aligning the reference mirror and the sample arm, we have managed to generate distinct interference fringes, a pivotal step towards achieving high-resolution OCT imaging.
+
+5. **Motor Control Script:** We have developed a custom script, OCT_motor_movement, which facilitates the control of the motor. Parameters such as speed and the number of steps per second (nSteps) can be adjusted through this script.
+
+6. **Dephasing Control:** The motor movement script allows precise control over dephasing. With a duration of approximately 4 seconds, it covers a range from -nSteps//2 to +nSteps//2, contributing to comprehensive data collection.
+
+7. **Camera Image Acquisition:** We have successfully acquired images using the camera software, Galaxy View. Utilizing the plugin for videos and image saving, we convert the images into TIFF stacks for further processing.
+
+8. **Post-Processing Script:** We have developed the OCT_post_process script, designed to demodulate the stack of acquired images. This script aids in extracting meaningful information from the raw data.
+
+### Upcoming Tasks
+
+1. **Demodulation Testing:** The demodulation script, designed to process the collected data, is poised for testing. Initial results indicate its potential effectiveness, and we are eager to refine it further.
+
+2. **Sample Demodulation Testing:** We intend to initiate testing with a sample, evaluating the demodulation script's performance under practical conditions.
+
+Through these achievements and ongoing efforts, our prototype OCT system is progressing towards its full operational potential, offering simplified setup and enhanced imaging capabilities.
 
 ### Code
 
